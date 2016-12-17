@@ -1,0 +1,3 @@
+tagdada_platform:
+    resource: "@TagdadaPlatformBundle/Resources/config/routing.yml"
+    prefix:   /

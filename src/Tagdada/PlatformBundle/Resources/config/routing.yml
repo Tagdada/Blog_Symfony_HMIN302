@@ -1,0 +1,11 @@
+tagdada_platform_homepage:
+    path:     /
+    defaults: { _controller: TagdadaPlatformBundle:Blog:index }
+
+index:
+    path:     /blog/{page}
+    defaults: {_controller: TagdadaPlatformBundle:Blog:Index}
+
+homepage:
+    path:     /blog/{slug}
+    defaults: {_controller: TagdadaPlatformBundle:Blog:Homepage}

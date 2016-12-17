@@ -1,0 +1,15 @@
+Tagdada\PlatformBundle\Entity\BlogPost:
+    type: entity
+    table: null
+    repositoryClass: Tagdada\PlatformBundle\Repository\BlogPostRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
